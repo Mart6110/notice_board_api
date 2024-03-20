@@ -19,12 +19,12 @@ const topic = "Highscore"; // Topic for Firebase Cloud Messaging
 
 const message = {
     notification: {
-        title:  'New High Score!', // Notification title
-        body: 'You got a new high score!' // Notification body
+        title:  'New High Score!',
+        body: 'You got a new high score!'
     },
     data: {
-        score: '850', // Additional data
-        time: '2:45' // Additional data
+        score: '850',
+        time: '2:45'
     },
     topic: topic, // Sending message to a specific topic
     android: {
