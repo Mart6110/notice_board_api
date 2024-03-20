@@ -1,0 +1,5 @@
+# Ignore npm moduls
+node_moduls/
+
+# Ignore
+noticeboardapp-c42f2-firebase-adminsdk-370td-899c593d93.json
